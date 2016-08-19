@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="XYSearchCell" id="gTV-IL-0wX" customClass="XYSearchCell" customModule="仿天猫搜索框" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="109" height="32"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="109" height="32"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I8D-Ka-442">
+                        <rect key="frame" x="0.0" y="0.0" width="109" height="32"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <state key="normal" backgroundImage="share_text_frame">
+                            <color key="titleColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                        </state>
+                        <state key="selected" backgroundImage="share_text_frame"/>
+                        <connections>
+                            <action selector="titleNameBut:" destination="gTV-IL-0wX" eventType="touchUpInside" id="MWn-Hl-uRf"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <constraints>
+                <constraint firstItem="I8D-Ka-442" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="9rz-qC-MCS"/>
+                <constraint firstAttribute="bottom" secondItem="I8D-Ka-442" secondAttribute="bottom" id="Igk-ux-VOp"/>
+                <constraint firstItem="I8D-Ka-442" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="VqW-TF-LZJ"/>
+                <constraint firstAttribute="trailing" secondItem="I8D-Ka-442" secondAttribute="trailing" id="sPM-Sx-Oum"/>
+            </constraints>
+            <size key="customSize" width="109" height="32"/>
+            <connections>
+                <outlet property="titleBut" destination="I8D-Ka-442" id="R9J-9b-zJb"/>
+            </connections>
+            <point key="canvasLocation" x="426.5" y="297"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="share_text_frame" width="294" height="114"/>
+    </resources>
+</document>

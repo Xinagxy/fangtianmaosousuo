@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>纯棉四件套</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>T血衫</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>洗衣液</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>单鞋</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>棉麻连衣裙</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>运动鞋</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>书包</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>避孕套</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>小吃</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>剃须刀</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>水杯</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>休闲裤男</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>泳裤</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>猜你想找</string>
+</dict>
+</plist>
